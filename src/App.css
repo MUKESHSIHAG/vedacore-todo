@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  background: #ffffff;
+  padding: 30px;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.todo-list {
+  background: #f3f1f1;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 500px;
+  margin-left: 10%; 
+  margin-top: 5%;
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo {
+  font-size: 15px;
+  margin-bottom: 6px;
+  /* margin-top: 10%; */
+}
+
+.clear-all {
+  background-color: black;
+  color: #ffffff;
+  border-radius: 5px;
+  float: right;
+  margin-right: 10%;
+}
+
+.check-box {
+  margin-right: 5%;
+  margin-left: 10%;
+}
+
+.remove-item {
+  margin-right: 15%;
+  float: right;
+  border: none;
+  font-size: 20px;
+}
+ 
+span {
+  margin-left: 10%;
+}
+
+.top-bar {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+form {
+  margin-top: 40%;
+  margin-left: 20%;
+}
+
+textarea {
+  margin-top: 4%;
+  margin-bottom: 10%;
+}
+
+.input-field {
+  display: flex;
+}
+
+.submit-btn {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  margin-top: 16px;
+  margin-left: 2%;
+  width: 10%;
+  font-size: 30px;
+  height: 55px;
+}
+
+.left-side {
+  /* margin-right: 30%; */
+  width: 50%;
+}
+
+.left-side h3 {
+  margin-left: 40%;
+  margin-top: 40%;
+  font-size: 50px;
+  font-weight: 500;
 }
